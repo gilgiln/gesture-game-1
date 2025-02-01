@@ -1,0 +1,30 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Gesture Project</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>HAND GESTURE GAME</h1>
+
+    <div id="webcam"></div>
+
+    <div id="output"></div>
+
+    <canvas id="gameCanvas" width="800" height="400"></canvas>
+    
+    <button id="Startbutton">Start</button>
+    <button id="Resetbutton">Reset</button>
+
+    <p>Untuk memainkan HAND GESTURE GAME gunakan pose peace dan metal tangan anda:</p>
+    <ul>
+      <li><strong>Peace:</strong>Melompat</li>
+      <li><strong>Metal:</strong>Menyerang</li>
+    </ul>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
